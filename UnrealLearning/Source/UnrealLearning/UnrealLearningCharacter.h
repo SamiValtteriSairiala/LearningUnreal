@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "BaseWeapon.h"
 #include "UnrealLearningCharacter.generated.h"
 
 class UInputComponent;
@@ -80,6 +81,82 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
 
+	UPROPERTY(EditAnywhere)
+		bool isZoomedIn;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+		ABaseWeapon* weapon;
+
+	UPROPERTY(EditAnywhere)
+		float FoVDefaultValue;
+
+	UPROPERTY(EditAnywhere)
+		bool isSprinting;
+
+	UPROPERTY(EditAnywhere)
+		int CurrentFovAddValue;
+
+	UPROPERTY(EditAnywhere)
+		int MaxFovAddValue;
+
+
+	UPROPERTY(EditAnywhere)
+		bool HasWeapon;
+
+	UPROPERTY(EditAnywhere)
+		bool Ability2Active;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Health)
+		float health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawning)
+		FVector respawnLocation;
+
+
+	// Has character used ability?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		bool hasUsedAbility1;
+	// Has character used ability?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		bool hasUsedAbility2;
+	// Has character used ability?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		bool hasUsedAbility3;
+	// Ability Duration.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		float Ability1Duration;
+	// Ability Duration.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		float Ability2Duration;
+	// Ability Duration.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		float Ability3Duration;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		float Ability1CooldownTime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		float Ability2CooldownTime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Abilities)
+		float Ability3CooldownTime;
+
+	FTimerHandle ability1TimerHandle;
+	FTimerHandle ability2TimerHandle;
+	FTimerHandle ability3TimerHandle;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Damage)
+		bool CanTakeDamageBool;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Damage)
+		float StopDamageFrame;
+
+	FTimerHandle DamageFrameTimerHandle;
+
+	UFUNCTION(BlueprintCallable)
+		void TakeDamage(float damageAmount);
+
 protected:
 	
 	/** Fires a projectile. */
@@ -93,6 +170,44 @@ protected:
 
 	/** Handles stafing movement, left and right */
 	void MoveRight(float Val);
+
+	void Sprint();
+
+	void StopSprint();
+
+	void Crouch();
+
+	void Tick(float DeltaTime);
+
+	void StopCrouch();
+
+	void Zoom();
+
+	void StopZoom();
+
+	void UseAbility1();
+	void UseAbility2();
+	void UseAbility3();
+
+	void ResetAbility1();
+	void ResetAbility2();
+	void ResetAbility3();
+
+	void Ability1CooldownComplete();
+	void Ability2CooldownComplete();
+	void Ability3CooldownComplete();
+
+	void CanTakeDamage();
+
+	UFUNCTION(BlueprintCallable)
+		void Die();
+
+	UFUNCTION(BlueprintCallable)
+		void Respawn();
+
+	void ReloadWeapon();
+
+
 
 	/**
 	 * Called via input to turn at a given rate.

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealLearning.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{610EAE44-A077-4526-9A1F-561D0AAACB53}</UniqueIdentifier>
+      <UniqueIdentifier>{68EC3B37-161B-4034-B2B1-F71311F1714A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealLearning.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D6368E73-45C4-455C-B633-F74544E00E22}</UniqueIdentifier>
+      <UniqueIdentifier>{3B81605E-A7B6-47EA-8841-DC5838CCA0AF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealLearning">
-      <UniqueIdentifier>{D246CB6A-48CF-4CAE-93E3-32D2041C1E3F}</UniqueIdentifier>
+      <UniqueIdentifier>{BDC0F8A5-6F49-46B3-AC1A-B36B1B7DB020}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealLearning\UnrealLearning.Build.cs">
       <Filter>Source\UnrealLearning</Filter>
@@ -64,6 +64,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealLearning\UnrealLearningProjectile.h">
       <Filter>Source\UnrealLearning</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealLearning\Private">
+      <UniqueIdentifier>{ABD6C0FD-38CF-402B-BCC3-A78233C37920}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealLearning\Private\BaseWeapon.cpp">
+      <Filter>Source\UnrealLearning\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealLearning\Public">
+      <UniqueIdentifier>{C59B4A21-EA2C-49FF-8F64-1DFBAFCD2C78}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealLearning\Public\BaseWeapon.h">
+      <Filter>Source\UnrealLearning\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -189,11 +189,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/I E:\UE5PROJECT\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine
-/Yc"E:\UE5PROJECT\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\UE5PROJECT\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\UE5PROJECT\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"E:\UE5PROJECT\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine
+/Yc"E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

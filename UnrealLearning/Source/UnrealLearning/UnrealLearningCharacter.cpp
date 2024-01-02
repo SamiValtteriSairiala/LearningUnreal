@@ -11,6 +11,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "GameFramework/CharacterMovementComponent.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -82,6 +83,32 @@ AUnrealLearningCharacter::AUnrealLearningCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	isZoomedIn = false;
+	isSprinting = false;
+	FoVDefaultValue = 110.0f;
+	MaxFovAddValue = 10;
+	HasWeapon = false;
+
+	hasUsedAbility1 = false;
+	hasUsedAbility2 = false;
+	hasUsedAbility3 = false;
+	Ability1Duration = 3.0f;
+	Ability2Duration = 10.0f;
+	Ability3Duration = 15.0f;
+	Ability1CooldownTime = 5.0f;
+	Ability2CooldownTime = 30.0f;
+	Ability3CooldownTime = 50.0f;
+
+	Ability2Active = false;
+
+	StopDamageFrame = 1.0f;
+	CanTakeDamageBool = true;
+	health = 1.0f;
+
+	weapon = nullptr;
+
+
 }
 
 void AUnrealLearningCharacter::BeginPlay()
@@ -120,6 +147,21 @@ void AUnrealLearningCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AUnrealLearningCharacter::OnFire);
 
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AUnrealLearningCharacter::Sprint);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AUnrealLearningCharacter::StopSprint);
+
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AUnrealLearningCharacter::Crouch);
+	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AUnrealLearningCharacter::StopCrouch);
+
+	PlayerInputComponent->BindAction("SecondaryAction", IE_Pressed, this, &AUnrealLearningCharacter::Zoom);
+	PlayerInputComponent->BindAction("SecondaryAction", IE_Released, this, &AUnrealLearningCharacter::StopZoom);
+
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AUnrealLearningCharacter::ReloadWeapon);
+
+	PlayerInputComponent->BindAction("ActivateAbility1", IE_Pressed, this, &AUnrealLearningCharacter::UseAbility1);
+	PlayerInputComponent->BindAction("ActivateAbility2", IE_Pressed, this, &AUnrealLearningCharacter::UseAbility2);
+	PlayerInputComponent->BindAction("ActivateAbility3", IE_Pressed, this, &AUnrealLearningCharacter::UseAbility3);
+
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
 
@@ -138,6 +180,10 @@ void AUnrealLearningCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AUnrealLearningCharacter::LookUpAtRate);
 }
 
+void AUnrealLearningCharacter::TakeDamage(float damageAmount)
+{
+}
+
 void AUnrealLearningCharacter::OnFire()
 {
 	// try and fire a projectile
@@ -146,25 +192,35 @@ void AUnrealLearningCharacter::OnFire()
 		UWorld* const World = GetWorld();
 		if (World != NULL)
 		{
-			if (bUsingMotionControllers)
-			{
-				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
-				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<AUnrealLearningProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-			}
-			else
-			{
-				const FRotator SpawnRotation = GetControlRotation();
-				// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+			if (weapon->clipAmmo > 0) {
+				if (bUsingMotionControllers)
+				{
+					const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
+					const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
+					World->SpawnActor<AUnrealLearningProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+				}
+				else
+				{
+					const FRotator SpawnRotation = GetControlRotation();
+					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+					const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
 
-				//Set Spawn Collision Handling Override
-				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+					//Set Spawn Collision Handling Override
+					FActorSpawnParameters ActorSpawnParams;
+					ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
-				// spawn the projectile at the muzzle
-				World->SpawnActor<AUnrealLearningProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+					// spawn the projectile at the muzzle
+					World->SpawnActor<AUnrealLearningProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				}
+				if (!Ability2Active) {
+					weapon->clipAmmo -= 1;
+				}
+				
 			}
+			else if (weapon->totalAmmo > 0) {
+				ReloadWeapon();
+			}
+			
 		}
 	}
 
@@ -216,43 +272,7 @@ void AUnrealLearningCharacter::EndTouch(const ETouchIndex::Type FingerIndex, con
 	TouchItem.bIsPressed = false;
 }
 
-//Commenting this section out to be consistent with FPS BP template.
-//This allows the user to turn without using the right virtual joystick
 
-//void AUnrealLearningCharacter::TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location)
-//{
-//	if ((TouchItem.bIsPressed == true) && (TouchItem.FingerIndex == FingerIndex))
-//	{
-//		if (TouchItem.bIsPressed)
-//		{
-//			if (GetWorld() != nullptr)
-//			{
-//				UGameViewportClient* ViewportClient = GetWorld()->GetGameViewport();
-//				if (ViewportClient != nullptr)
-//				{
-//					FVector MoveDelta = Location - TouchItem.Location;
-//					FVector2D ScreenSize;
-//					ViewportClient->GetViewportSize(ScreenSize);
-//					FVector2D ScaledDelta = FVector2D(MoveDelta.X, MoveDelta.Y) / ScreenSize;
-//					if (FMath::Abs(ScaledDelta.X) >= 4.0 / ScreenSize.X)
-//					{
-//						TouchItem.bMoved = true;
-//						float Value = ScaledDelta.X * BaseTurnRate;
-//						AddControllerYawInput(Value);
-//					}
-//					if (FMath::Abs(ScaledDelta.Y) >= 4.0 / ScreenSize.Y)
-//					{
-//						TouchItem.bMoved = true;
-//						float Value = ScaledDelta.Y * BaseTurnRate;
-//						AddControllerPitchInput(Value);
-//					}
-//					TouchItem.Location = Location;
-//				}
-//				TouchItem.Location = Location;
-//			}
-//		}
-//	}
-//}
 
 void AUnrealLearningCharacter::MoveForward(float Value)
 {
@@ -269,6 +289,159 @@ void AUnrealLearningCharacter::MoveRight(float Value)
 	{
 		// add movement in that direction
 		AddMovementInput(GetActorRightVector(), Value);
+	}
+}
+
+void AUnrealLearningCharacter::Sprint()
+{
+	if (GetCharacterMovement()->bWantsToCrouch == true) {
+		return;
+	}
+	if (isZoomedIn == true) {
+		StopZoom();
+	}
+	isSprinting = true;
+	GetCharacterMovement()->MaxWalkSpeed = 1500.0f;
+}
+
+void AUnrealLearningCharacter::StopSprint()
+{
+	CurrentFovAddValue = 0; // Reset the "sprint" fov
+	isSprinting = false;
+	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	if (auto firstPersonCamera = GetFirstPersonCameraComponent()) {
+		firstPersonCamera->SetFieldOfView(FoVDefaultValue);
+	}
+}
+
+void AUnrealLearningCharacter::Crouch()
+{
+	StopZoom();
+	StopSprint();
+	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	GetCharacterMovement()->bWantsToCrouch = true;
+	GetCharacterMovement()->Crouch(true);
+}
+
+void AUnrealLearningCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	if (isSprinting) {
+		if (auto firstPersonCamera = GetFirstPersonCameraComponent()) {
+			if (CurrentFovAddValue == MaxFovAddValue) {
+				firstPersonCamera->SetFieldOfView(FoVDefaultValue + MaxFovAddValue);
+			}
+			if (CurrentFovAddValue != MaxFovAddValue) {
+				CurrentFovAddValue += 1;
+				firstPersonCamera->SetFieldOfView(FoVDefaultValue + CurrentFovAddValue);
+			}
+		}
+	}
+}
+
+void AUnrealLearningCharacter::StopCrouch()
+{
+	GetCharacterMovement()->bWantsToCrouch = false;
+	GetCharacterMovement()->UnCrouch(true);
+}
+
+void AUnrealLearningCharacter::Zoom()
+{
+	if (isSprinting == true) {
+		return;
+	}
+
+	if (auto firstPersonCamera = GetFirstPersonCameraComponent()) {
+		firstPersonCamera->SetFieldOfView(FoVDefaultValue - 30.0f);
+		isZoomedIn = true;
+	}
+}
+
+void AUnrealLearningCharacter::StopZoom()
+{
+	if (auto firstPersonCamera = GetFirstPersonCameraComponent()) {
+		firstPersonCamera->SetFieldOfView(FoVDefaultValue);
+		isZoomedIn = false;
+	}
+}
+
+void AUnrealLearningCharacter::UseAbility1()
+{
+	if (!hasUsedAbility1) {
+		if (auto firstPersonCamera = GetFirstPersonCameraComponent()) {
+			hasUsedAbility1 = true;
+			/*GetCharacterMovement()->AddImpulse(firstPersonCamera->GetForwardVector() * 15000.0f, true);*/ // Dash ability need fixing
+			GetCharacterMovement()->JumpZVelocity = 1000.0f;
+			
+			GetWorld()->GetTimerManager().SetTimer(ability1TimerHandle, this, &AUnrealLearningCharacter::ResetAbility1, Ability1Duration, false);
+		}
+	}
+}
+
+void AUnrealLearningCharacter::UseAbility2()
+{
+	if (!hasUsedAbility2) {
+		Ability2Active = true;
+		hasUsedAbility2 = true;
+
+		GetWorld()->GetTimerManager().SetTimer(ability2TimerHandle, this, &AUnrealLearningCharacter::ResetAbility2, Ability2Duration, false);
+	}
+}
+
+void AUnrealLearningCharacter::UseAbility3()
+{
+}
+
+void AUnrealLearningCharacter::ResetAbility1()
+{
+	GetCharacterMovement()->JumpZVelocity = 420.0f;
+
+	GetWorld()->GetTimerManager().SetTimer(ability1TimerHandle, this, &AUnrealLearningCharacter::Ability1CooldownComplete, Ability1CooldownTime, false);
+}
+
+void AUnrealLearningCharacter::ResetAbility2()
+{
+	Ability2Active = false;
+
+	GetWorld()->GetTimerManager().SetTimer(ability2TimerHandle, this, &AUnrealLearningCharacter::Ability2CooldownComplete, Ability2CooldownTime, false);
+}
+
+void AUnrealLearningCharacter::Ability1CooldownComplete()
+{
+	hasUsedAbility1 = false;
+}
+
+void AUnrealLearningCharacter::Ability2CooldownComplete()
+{
+	hasUsedAbility2 = false;
+}
+
+void AUnrealLearningCharacter::CanTakeDamage()
+{
+	CanTakeDamageBool = true;
+}
+
+void AUnrealLearningCharacter::Die()
+{
+}
+
+void AUnrealLearningCharacter::Respawn()
+{
+}
+
+void AUnrealLearningCharacter::ReloadWeapon()
+{
+	if (weapon) {
+		if (weapon->clipAmmo != weapon->maxClipAmmo) {
+			if (weapon->totalAmmo - (weapon->maxClipAmmo - weapon->clipAmmo) >= 0) {
+				weapon->totalAmmo -= (weapon->maxClipAmmo - weapon->clipAmmo);
+				weapon->clipAmmo = weapon->maxClipAmmo;
+			}
+			else {
+				weapon->clipAmmo += weapon->totalAmmo;
+				weapon->totalAmmo = 0;
+			}
+		}
 	}
 }
 
