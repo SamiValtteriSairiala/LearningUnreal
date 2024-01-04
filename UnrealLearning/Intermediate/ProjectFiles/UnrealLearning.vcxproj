@@ -518,7 +518,9 @@
     <ClInclude Include="..\..\Source\UnrealLearning\UnrealLearningHUD.h"/>
     <ClCompile Include="..\..\Source\UnrealLearning\UnrealLearningProjectile.cpp"/>
     <ClInclude Include="..\..\Source\UnrealLearning\UnrealLearningProjectile.h"/>
+    <ClCompile Include="..\..\Source\UnrealLearning\Private\BaseEnemy.cpp"/>
     <ClCompile Include="..\..\Source\UnrealLearning\Private\BaseWeapon.cpp"/>
+    <ClInclude Include="..\..\Source\UnrealLearning\Public\BaseEnemy.h"/>
     <ClInclude Include="..\..\Source\UnrealLearning\Public\BaseWeapon.h"/>
   </ItemGroup>
   <PropertyGroup>

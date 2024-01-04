@@ -1,0 +1,1499 @@
+﻿Log file open, 01/03/24 12:41:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UnrealLearning
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.844375
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.069s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz, GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE5/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.01.03-10.41.47:662][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.01.03-10.41.47:662][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.01.03-10.41.47:663][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:663][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:667][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:667][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.03-10.41.47:667][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.03-10.41.47:667][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.03-10.41.47:668][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.03-10.41.47:668][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.03-10.41.47:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.01.03-10.41.47:674][  0]LogHAL: Display: Platform has ~ 32 GB [34277961728 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.01.03-10.41.47:674][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2024.01.03-10.41.47:675][  0]LogInit: Going up to parent DeviceProfile []
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Scalability.ini]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.03-10.41.47:675][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.01.03-10.41.47:676][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.01.03-10.41.47:676][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Config/Windows/Engine.ini]
+[2024.01.03-10.41.47:676][  0]LogInit: Computer: DESKTOP-OU5D8UR
+[2024.01.03-10.41.47:676][  0]LogInit: User: Acey
+[2024.01.03-10.41.47:676][  0]LogInit: CPU Page size=4096, Cores=8
+[2024.01.03-10.41.47:676][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.01.03-10.41.47:676][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2024.01.03-10.41.47:676][  0]LogMemory: Platform Memory Stats for Windows
+[2024.01.03-10.41.47:676][  0]LogMemory: Process Physical Memory: 104.61 MB used, 104.61 MB peak
+[2024.01.03-10.41.47:676][  0]LogMemory: Process Virtual Memory: 91.35 MB used, 91.35 MB peak
+[2024.01.03-10.41.47:676][  0]LogMemory: Physical Memory: 11008.31 MB used,  21681.70 MB free, 32690.01 MB total
+[2024.01.03-10.41.47:676][  0]LogMemory: Virtual Memory: 4669.94 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2024.01.03-10.41.47:764][  0]LogInit: Using OS detected language (fi-FI).
+[2024.01.03-10.41.47:764][  0]LogInit: Using OS detected locale (fi-FI).
+[2024.01.03-10.41.47:767][  0]LogTextLocalizationManager: No localization for 'fi-FI' exists, so 'en' will be used for the language.
+[2024.01.03-10.41.48:055][  0]LogStreaming: Display: Took  0.291s to InitEngineTextLocalization.
+[2024.01.03-10.41.48:055][  0]LogInit: Setting process to per monitor DPI aware
+[2024.01.03-10.41.48:089][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.01.03-10.41.48:089][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.01.03-10.41.48:396][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.03-10.41.48:396][  0]LogD3D11RHI: D3D11 adapters:
+[2024.01.03-10.41.48:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2024.01.03-10.41.48:497][  0]LogD3D11RHI:       12129/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.01.03-10.41.48:499][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.03-10.41.48:499][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.03-10.41.48:499][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.01.03-10.41.48:504][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.01.03-10.41.48:504][  0]LogD3D11RHI:     GPU DeviceId: 0x2503 (for the marketing name, search the web for "GPU Device Id")
+[2024.01.03-10.41.48:504][  0]LogWindows: EnumDisplayDevices:
+[2024.01.03-10.41.48:504][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2024.01.03-10.41.48:504][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2024.01.03-10.41.48:504][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2024.01.03-10.41.48:505][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2024.01.03-10.41.48:505][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.01.03-10.41.48:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2024.01.03-10.41.48:505][  0]LogD3D11RHI:   Driver Version: 537.13 (internal:31.0.15.3713, unified:537.13)
+[2024.01.03-10.41.48:505][  0]LogD3D11RHI:      Driver Date: 8-14-2023
+[2024.01.03-10.41.48:505][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
+[2024.01.03-10.41.48:577][  0]LogD3D11RHI: Async texture creation enabled
+[2024.01.03-10.41.48:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.01.03-10.41.48:915][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.01.03-10.41.48:929][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.01.03-10.41.48:943][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.01.03-10.41.48:957][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.01.03-10.41.48:968][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.01.03-10.41.48:983][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.01.03-10.41.48:998][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.01.03-10.41.49:012][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.01.03-10.41.49:017][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.01.03-10.41.49:084][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.01.03-10.41.49:161][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.01.03-10.41.49:161][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.01.03-10.41.49:182][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.01.03-10.41.49:182][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.01.03-10.41.49:198][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.01.03-10.41.49:214][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.01.03-10.41.49:232][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.01.03-10.41.49:243][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.01.03-10.41.49:280][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.01.03-10.41.49:280][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.01.03-10.41.49:280][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.01.03-10.41.49:955][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Intermediate/Shaders/WorkingDirectory/11008/).
+[2024.01.03-10.41.49:955][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Acey/AppData/Local/Temp/UnrealShaderWorkingDir/0B56E1E84ED57FAA7108049A70DEDFE9/'.
+[2024.01.03-10.41.49:956][  0]LogXGEController: Cleaning working directory: C:/Users/Acey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.01.03-10.41.49:956][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.01.03-10.41.49:956][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.01.03-10.41.49:956][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.01.03-10.41.50:412][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.01.03-10.41.50:467][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Acey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2024.01.03-10.41.50:467][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Acey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2024.01.03-10.41.50:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.03-10.41.50:467][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.01.03-10.41.50:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.01.03-10.41.50:467][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.01.03-10.41.50:479][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.01.03-10.41.50:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.01.03-10.41.50:479][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.01.03-10.41.50:491][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Acey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.01.03-10.41.50:491][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.01.03-10.41.50:491][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.01.03-10.41.50:507][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.01.03-10.41.50:509][  0]LogSlate: Using FreeType 2.6.0
+[2024.01.03-10.41.50:510][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.03-10.41.50:622][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2024.01.03-10.41.50:855][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.03-10.41.51:273][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.01.03-10.41.51:378][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.01.03-10.41.51:378][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.01.03-10.41.51:378][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.01.03-10.41.51:378][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.01.03-10.41.51:395][  0]LogNetVersion: UnrealLearning 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2844153615)
+[2024.01.03-10.41.51:777][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.028838 seconds
+[2024.01.03-10.41.51:786][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2024.01.03-10.41.51:786][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2024.01.03-10.41.51:786][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.01.03-10.41.53:482][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.01.03-10.41.53:496][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.01.03-10.41.54:348][  0]SourceControl: Source control is disabled
+[2024.01.03-10.41.54:348][  0]SourceControl: Source control is disabled
+[2024.01.03-10.41.54:402][  0]SourceControl: Source control is disabled
+[2024.01.03-10.41.54:419][  0]SourceControl: Source control is disabled
+[2024.01.03-10.41.55:166][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.01.03-10.41.55:281][  0]LogOcInput: OculusInput pre-init called
+[2024.01.03-10.41.55:452][  0]LogEngine: Initializing Engine...
+[2024.01.03-10.41.55:453][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.03-10.41.55:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.01.03-10.41.55:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.01.03-10.41.55:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.01.03-10.41.55:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.01.03-10.41.55:617][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.01.03-10.41.55:627][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.01.03-10.41.55:668][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.01.03-10.41.55:686][  0]LogInit: FAudioDevice initialized.
+[2024.01.03-10.41.55:686][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.01.03-10.41.55:713][  0]LogDerivedDataCache: Saved boot cache 0.03s 73MB C:/Users/Acey/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2024.01.03-10.41.55:715][  0]LogInit: Texture streaming: Enabled
+[2024.01.03-10.41.55:748][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.01.03-10.41.55:762][  0]LogInit: Transaction tracking system initialized
+[2024.01.03-10.41.55:845][  0]BlueprintLog: New page: Editor Load
+[2024.01.03-10.41.56:292][  0]LocalizationService: Localization service is disabled
+[2024.01.03-10.41.56:844][  0]LogFileCache: Scanning file cache for directory 'E:/UE5PROJECT/LearningUnreal/UnrealLearning/Content/' took 0.01s
+[2024.01.03-10.41.56:844][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.01.03-10.41.56:844][  0]LogCook: Display: Mobile HDR setting 1
+[2024.01.03-10.41.56:844][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.01.03-10.41.56:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.01.03-10.41.56:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.01.03-10.41.56:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.01.03-10.41.56:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.01.03-10.41.57:281][  0]SourceControl: Source control is disabled
+[2024.01.03-10.41.57:281][  0]Cmd: MAP LOAD FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.03-10.41.57:282][  0]LightingResults: New page: Lighting Build
+[2024.01.03-10.41.57:285][  0]MapCheck: New page: Map Check
+[2024.01.03-10.41.57:285][  0]LightingResults: New page: Lighting Build
+[2024.01.03-10.41.57:415][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.01.03-10.41.57:426][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.03-10.41.57:446][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.03-10.41.57:446][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,079ms to complete.
+[2024.01.03-10.41.57:446][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.165
+[2024.01.03-10.41.57:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.41.57:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.41.57:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.41.57:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.41.57:549][  0]LogCollectionManager: Loaded 0 collections in 0.000685 seconds
+[2024.01.03-10.41.57:585][  0]LogFileCache: Scanning file cache for directory 'E:/UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Collections/' took 0.01s
+[2024.01.03-10.41.57:585][  0]LogFileCache: Scanning file cache for directory 'E:/UE5PROJECT/LearningUnreal/UnrealLearning/Content/Developers/Acey/Collections/' took 0.01s
+[2024.01.03-10.41.57:585][  0]LogFileCache: Scanning file cache for directory 'E:/UE5PROJECT/LearningUnreal/UnrealLearning/Content/Collections/' took 0.01s
+[2024.01.03-10.41.57:585][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2024.01.03-10.41.57:591][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2656 classes and 623 folders.
+[2024.01.03-10.41.57:596][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.01.03-10.41.57:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:602][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:603][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:606][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:608][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:610][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:611][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:611][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:613][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:615][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:621][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:624][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:625][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2024.01.03-10.41.57:681][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.01.03-10.41.57:730][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2024.01.03-10.41.58:513][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2024.01.03-10.41.58:535][  0]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.03-10.41.58:537][  0]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.03-10.41.58:540][  0]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.03-10.41.58:599][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UnrealLearning
+[2024.01.03-10.41.58:599][  0]LogTemp: CWD: E:\UE5\UE_4.21\Engine\Binaries\DotNET\IOS
+[2024.01.03-10.41.58:599][  0]LogTemp: Initial Dir: E:\UE5\UE_4.21
+[2024.01.03-10.41.58:599][  0]LogTemp: Env CWD: E:\UE5\UE_4.21\Engine\Binaries\DotNET\IOS
+[2024.01.03-10.41.58:599][  0]LogTemp: BranchPath = DESKTOP-OU5D8UR/E/UE5/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-OU5D8UR/E/UE5/UE_4.21/Engine/Binaries
+[2024.01.03-10.41.58:599][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Acey\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2024.01.03-10.41.58:599][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2024.01.03-10.41.58:626][  0]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.03-10.41.58:730][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2024.01.03-10.41.58:730][  0]LogLoad: (Engine Initialization) Total time: 14.84 seconds
+[2024.01.03-10.41.58:730][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.01.03-10.41.58:796][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.03-10.41.58:833][  1]LogAssetRegistry: Asset discovery search completed in 8.2335 seconds
+[2024.01.03-10.41.58:835][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2024.01.03-10.41.58:835][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2024.01.03-10.42.14:644][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-10.42.14:743][586]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.03-10.42.14:749][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-10.42.14:749][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.03-10.42.14:750][586]PIE: New page: PIE session: FirstPersonExampleMap (3.1.2024 14.42.14)
+[2024.01.03-10.42.14:761][586]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.01.03-10.42.14:772][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010658s)
+[2024.01.03-10.42.14:772][586]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.01.03-10.42.14:772][586]LogPlayLevel: PIE: World Init took: (0.000409s)
+[2024.01.03-10.42.14:772][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011247s)
+[2024.01.03-10.42.14:810][586]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.01.03-10.42.14:822][586]LogInit: FAudioDevice initialized.
+[2024.01.03-10.42.14:865][586]LogLoad: Game class is 'UnrealLearningGameMode'
+[2024.01.03-10.42.14:867][586]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2024.01.03-12.42.14
+[2024.01.03-10.42.14:867][586]LogWorld: Bringing up level for play took: 0.001408
+[2024.01.03-10.42.14:883][586]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2024.01.03-10.42.14:884][586]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap −0,325
+[2024.01.03-10.42.14:884][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-10.42.21:902][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-10.42.21:905][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.42.21:941][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.03-10.42.21:942][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-10.42.21:969][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-10.42.22:002][427]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.01.03-10.43.06:342][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-10.43.06:670][828]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.03-10.43.06:674][828]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Player_HUD.Player_HUD
+[2024.01.03-10.43.06:987][828]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2024.01.03-10.43.07:557][828]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.03-10.43.30:229][724]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Player_HUD.Player_HUD_C:WidgetTree.CanvasPanel_0
+[2024.01.03-10.43.30:229][724]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_0.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.43.30:229][724]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_1.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.43.30:229][724]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_2.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.43.30:229][724]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Image /Engine/UMG/Editor/Transient.Image_255).  Import failed...
+[2024.01.03-10.43.30:229][724]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_1"''
+[2024.01.03-10.43.45:052][325]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.43.49:601][836]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Player_HUD.Player_HUD_C:WidgetTree.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_0.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_1.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_2.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_3.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_4.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_5.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:Player_HUD_C_6.WidgetTree_0.CanvasPanel_0
+[2024.01.03-10.44.10:503][131]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Player_HUD.Player_HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_140).  Import failed...
+[2024.01.03-10.44.10:503][131]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_5"''
+[2024.01.03-10.45.27:440][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.45.27:456][639]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDFD52D9834B48C6CBDC3FAAB21BF05840.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.45.50:914][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.45.50:927][490]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDB8D144884F92FB29A63065A33183326D.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.46.07:817][875]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.46.12:713][  5]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.46.20:905][403]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.46.25:730][552]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.46.39:272][730]BlueprintLog: New page: Compile Player_HUD
+[2024.01.03-10.46.39:739][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.46.39:751][779]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD76AA3D48454012C9CEC2D181D852AC06.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.46.49:267][268]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.46.50:823][453]BlueprintLog: New page: Compile Player_HUD
+[2024.01.03-10.46.51:246][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.46.51:258][498]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDB535622B449FAEBFDAF7F88EA54491DE.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.47.25:379][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.47.25:392][707]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDC522968F4031069DB45733A6B8FF37DC.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.47.25:914][769]BlueprintLog: New page: Compile Player_HUD
+[2024.01.03-10.47.26:303][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.47.26:316][808]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD6003C87F486CEAA864F01E8AA9629AAD.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.48.25:603][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.48.25:616][600]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDA2222EB14DCEFAAD930F61A0EEA2BABB.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.48.34:208][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.48.34:223][620]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD6B1E342F4E47B456F6BA12BB97B589DD.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.48.45:660][954]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.48.58:122][680]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.48.58:651][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.48.58:666][742]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDEF14AED0414FA5DCE5ECAE8BD41556EA.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.48.59:294][817]BlueprintLog: New page: Compile Player_HUD
+[2024.01.03-10.48.59:914][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-10.48.59:929][885]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD091342364E7992AE0FD536ABC6C8ED1B.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-10.49.33:819][547]LogSlate: Window 'Player_HUD' being destroyed
+[2024.01.03-10.50.05:002][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-10.51.10:868][ 12]Running E:/UE5/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" -game -rocket -progress
+[2024.01.03-10.51.11:187][ 12]Discovering modules, targets and source code for project...
+[2024.01.03-10.51.12:595][ 12]Binding IntelliSense data...
+[2024.01.03-10.51.14:004][ 12]Binding IntelliSense data... 100%
+[2024.01.03-10.51.14:004][ 12]Writing project files...
+[2024.01.03-10.51.15:819][ 12]Writing project files... 100%
+[2024.01.03-10.51.15:923][ 12]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2024.01.03-10.51.15:927][ 12]Candidate modules for hot reload:
+[2024.01.03-10.51.15:927][ 12]  UnrealLearning
+[2024.01.03-10.51.15:927][ 12]Launching UnrealBuildTool... [E:/UE5/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealLearning,2279 Win64 Development -TargetType=Editor -Project="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" -canskiplink "E:/UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" ]
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: New page: Compilation - 3.1.2024 14.51.31
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\UE5PROJECT\LearningUnreal).
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Creating makefile for hot reloading UnrealLearningEditor (source directory changed)
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Compiling game modules for hot reload
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Using Visual Studio 2017 14.36.32532 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Parsing headers for UnrealLearningEditor
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:   Running UnrealHeaderTool "E:\UE5PROJECT\LearningUnreal\UnrealLearning\UnrealLearning.uproject" "E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\UnrealLearningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Reflection code generated for UnrealLearningEditor in 6,9507196 seconds
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Building 5 actions with 16 processes...
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:   [1/5] UnrealLearning.init.gen.cpp
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:   [2/5] BaseEnemy.cpp
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:   [3/5] BaseEnemy.gen.cpp
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:   [4/5] UE4Editor-UnrealLearning-2279.lib
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:      Creating library E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-2279.lib and object E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-2279.exp
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:   [5/5] UE4Editor-UnrealLearning-2279.dll
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog:      Creating library E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-2279.suppressed.lib and object E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-2279.suppressed.exp
+[2024.01.03-10.51.31:097][ 12]CompilerResultsLog: Total build time: 14,96 seconds (Parallel executor: 2,76 seconds)
+[2024.01.03-10.51.31:097][ 12]LogMainFrame: MainFrame: Module compiling took 15.174 seconds
+[2024.01.03-10.51.31:133][ 12]LogClass: Could not find existing class BaseEnemy in package /Script/UnrealLearning for HotReload, assuming new class
+[2024.01.03-10.51.31:144][ 12]LogContentBrowser: Native class hierarchy updated for 'UnrealLearning' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2024.01.03-10.51.31:147][ 12]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2024.01.03-10.51.31:530][ 12]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2658 classes and 625 folders.
+[2024.01.03-10.51.31:533][ 12]Display: HotReload took 15.6s.
+[2024.01.03-10.51.31:533][ 12]Warning: HotReload operation took 15.6s.
+[2024.01.03-10.51.31:663][ 12]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.01.03-10.51.31:672][ 12]LogHotReload: New module detected: UE4Editor-UnrealLearning-2279.dll
+[2024.01.03-10.51.31:691][ 13]LogHotReload: Starting Hot-Reload from IDE
+[2024.01.03-10.51.31:749][ 13]LogContentBrowser: Native class hierarchy updated for 'UnrealLearning' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2024.01.03-10.51.31:753][ 13]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2024.01.03-10.51.31:988][ 13]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2658 classes and 625 folders.
+[2024.01.03-10.51.31:989][ 13]Display: HotReload took  0.3s.
+[2024.01.03-10.55.02:649][945]Candidate modules for hot reload:
+[2024.01.03-10.55.02:649][945]  UnrealLearning
+[2024.01.03-10.55.02:649][945]Launching UnrealBuildTool... [E:/UE5/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealLearning,9814 Win64 Development -TargetType=Editor -Project="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" -canskiplink "E:/UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" ]
+[2024.01.03-10.55.02:667][945]Warning: Starting HotReload took  0.3s.
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: New page: Compilation - 3.1.2024 14.55.18
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\UE5PROJECT\LearningUnreal).
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Creating makefile for hot reloading UnrealLearningEditor (source directory changed)
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Compiling game modules for hot reload
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Using Visual Studio 2017 14.36.32532 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Parsing headers for UnrealLearningEditor
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   Running UnrealHeaderTool "E:\UE5PROJECT\LearningUnreal\UnrealLearning\UnrealLearning.uproject" "E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UnrealLearningEditor\Development\UnrealLearningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Reflection code generated for UnrealLearningEditor in 7,3318795 seconds
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Building 5 actions with 16 processes...
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   [1/5] UnrealLearning.init.gen.cpp
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   [2/5] BaseEnemy.cpp
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\Public\BaseEnemy.h(27): warning C4263: 'void ABaseEnemy::TakeDamage(float)': member function does not override any base class virtual member function
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\Public\BaseEnemy.h(34): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   [3/5] BaseEnemy.gen.cpp
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning/Public/BaseEnemy.h(27): warning C4263: 'void ABaseEnemy::TakeDamage(float)': member function does not override any base class virtual member function
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning/Public/BaseEnemy.h(34): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   [4/5] UE4Editor-UnrealLearning-9814.lib
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:      Creating library E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-9814.lib and object E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-9814.exp
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:   [5/5] UE4Editor-UnrealLearning-9814.dll
+[2024.01.03-10.55.18:272][818]CompilerResultsLog:      Creating library E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-9814.suppressed.lib and object E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-9814.suppressed.exp
+[2024.01.03-10.55.18:272][818]CompilerResultsLog: Total build time: 15,39 seconds (Parallel executor: 2,78 seconds)
+[2024.01.03-10.55.18:272][818]LogMainFrame: MainFrame: Module compiling took 15.625 seconds
+[2024.01.03-10.55.18:327][818]LogClass: Could not find existing class BaseEnemy in package /Script/UnrealLearning for HotReload, assuming new class
+[2024.01.03-10.55.18:327][818]LogClass: Function TakeDamage is new.
+[2024.01.03-10.55.18:340][818]LogHotReload: Re-instancing BaseEnemy after hot-reload.
+[2024.01.03-10.55.18:441][818]LogContentBrowser: Native class hierarchy updated for 'UnrealLearning' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2024.01.03-10.55.18:444][818]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2024.01.03-10.55.18:662][818]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2658 classes and 625 folders.
+[2024.01.03-10.55.18:662][818]Display: HotReload took 16.3s.
+[2024.01.03-10.55.47:155][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-10.56.00:815][837]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.03-10.56.09:468][872]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BaseEnemy_BP.BaseEnemy_BP
+[2024.01.03-10.56.09:770][873]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2024.01.03-10.56.10:889][  5]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.03-10.56.11:952][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-10.56.11:958][132]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP7512D16B44871C0404F76B88DDD9DC0A.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-10.56.15:710][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-10.56.32:955][437]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-10.56.33:601][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-10.56.33:613][513]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPDD01DB3149F52FED3C9079B20AB23D66.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-10.56.50:551][903]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-10.57.05:365][153]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-10.57.05:375][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-10.57.05:389][153]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP15482967421F59361B1D3AB07FB2168C.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-10.57.11:984][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-10.57.27:712][656]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Enemy_Health.Enemy_Health
+[2024.01.03-10.57.41:398][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-10.57.41:401][191]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health4D78D9CE4D7068E04CF403B33476C1B1.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-10.57.44:937][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-10.57.44:942][614]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthAA10B99344707956201AD1A29105F552.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-10.57.49:978][217]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.58.10:447][  2]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-10.59.22:245][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-10.59.22:250][652]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health2348597642E889C859F2EC99E69D3510.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-10.59.23:494][801]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-10.59.23:895][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-10.59.23:899][825]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health8BCDCB1E4C8809EE66284692FA66641D.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.00.20:642][874]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.03-11.00.44:672][402]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.01.03-11.01.08:028][190]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.01.08:037][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.01.08:049][190]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP070427FA495FC120F68944835D366880.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.01.16:820][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.01.16:825][232]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health46C64704439BA93089F6C5A1D3DA5389.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.01.20:047][617]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.01.20:050][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.01.20:056][617]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPCEFDC0514F705924D5424AB31207C72A.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.01.20:967][725]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.01.21:577][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.01.21:589][772]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPFAE46CCE4F0DA705FA54A38E5C49B682.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.01.23:760][ 32]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.01.24:486][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.01.24:491][ 90]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthC26645A64A55E541E4243092F3164EC0.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.01.28:419][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.01.28:423][522]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health37CEA6BA4AB49E4C9A0047B3BF387D7E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.01.29:327][630]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.01.29:813][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.01.29:818][662]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health84304F40432757747C6E7B991769C355.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.01.31:753][894]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.01.32:248][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.01.32:260][930]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP8F588625404065AA40867C9524195117.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.01.37:450][434]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.01.39:273][652]Cmd: TRANSACTION UNDO
+[2024.01.03-11.01.39:273][652]LogEditorTransaction: Undo Animatable Property Changed
+[2024.01.03-11.01.39:274][652]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2024.01.03-11.01.40:260][652]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.985 s
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: === Handled ensure: ===
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: 
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2105]
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: 
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: Stack: 
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc38c185e8 UE4Editor-Engine.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3648fe32 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc364bacf6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc364a140c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3650b427 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3654f72f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc364e726f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc364a0b4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3649a786 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc36da0b33 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc2ac3773e UE4Editor-MainFrame.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc2ac37b5e UE4Editor-MainFrame.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3e2d206f UE4Editor-Slate.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3e314c8e UE4Editor-Slate.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc2ac47562 UE4Editor-MainFrame.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc2ac375e9 UE4Editor-MainFrame.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3e3169f9 UE4Editor-Slate.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffc3e309a36 UE4Editor-Slate.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffcd7e3daa4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffcd7e30de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffcd7e401eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffcd7e2ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffd0a74e858 USER32.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffd0a74e299 USER32.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ffcd7e41746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ff643895546 UE4Editor.exe!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ff6438a596c UE4Editor.exe!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ff6438a59ea UE4Editor.exe!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ff6438b48da UE4Editor.exe!UnknownFunction []
+[2024.01.03-11.01.40:260][652]LogOutputDevice: Error: [Callstack] 0x00007ff6438b659a UE4Editor.exe!UnknownFunction []
+[2024.01.03-11.01.40:261][652]LogOutputDevice: Error: [Callstack] 0x00007ffd0b147344 KERNEL32.DLL!UnknownFunction []
+[2024.01.03-11.01.40:261][652]LogOutputDevice: Error: [Callstack] 0x00007ffd0c4826b1 ntdll.dll!UnknownFunction []
+[2024.01.03-11.01.40:261][652]LogOutputDevice: Error: 
+[2024.01.03-11.01.40:270][652]LogStats:                SubmitErrorReport -  0.000 s
+[2024.01.03-11.01.41:071][652]LogStats:                    SendNewReport -  0.801 s
+[2024.01.03-11.01.41:071][652]LogStats:             FDebug::EnsureFailed -  1.797 s
+[2024.01.03-11.01.41:073][652]Cmd: TRANSACTION UNDO
+[2024.01.03-11.01.41:073][652]LogEditorTransaction: Undo Animatable Property Changed
+[2024.01.03-11.01.41:074][652]Cmd: TRANSACTION UNDO
+[2024.01.03-11.01.41:074][652]LogEditorTransaction: Undo Animatable Property Changed
+[2024.01.03-11.01.55:814][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.01.55:820][787]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health61C61C104C66DECB2A4B4EB08FF2CFD2.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.01.57:057][935]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.01.57:762][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.01.57:767][993]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health1480E90240F58C6D5BDAE083A7E61FD4.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.02.00:245][290]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.02.00:882][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.02.00:893][342]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPD1B64B8141702829EBAFB8A2BE0F54D3.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.02.04:464][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.02.31:733][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.02.33:279][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.02.33:291][693]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPF98A80BF4F5B9EFF4953B98CCDA69AA6.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.02.53:693][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.02.53:706][ 75]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP9BEF29864FDDD6E38C97D0880E2AC476.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.06:423][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.06:437][315]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPE1ECA03D43EB046594096697A5EE4220.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.08:112][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.08:125][514]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP6599C32A40947A021FB2C5ACE8E05B7E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.20:157][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.20:171][588]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP217138954F579F8FBDFD3F8B0D96861E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.24:537][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.24:551][106]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP7E8C220A4FDB17F209ED9E960C0325C1.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.29:616][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.29:629][708]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP31C48EFA4BE2F2AD787401845AF654D7.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.30:423][803]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.03.31:000][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.31:014][850]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP563CCAC949C4D42594B2AEB59F9E304D.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.40:633][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.03.46:202][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.03.46:213][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.03.46:226][664]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP1DC6CB854036D4A8C43EDABB885AE6F8.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.03.59:247][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.03.59:253][120]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health7D23AB8A454A3D079C0B1CBB56E8DCCF.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.02:025][452]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.04.02:648][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.02:662][504]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPE9EEC00548B94745D7E8D590BD338D71.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.04.05:991][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.04.06:843][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.06:857][998]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPEA2C99794F02844BE81EC6BFE3BD716B.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.04.07:944][128]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.04.08:501][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.08:515][173]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP149AA24B4BD47C52F296F8BF75F40D9E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.04.10:710][436]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.04.11:282][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.04.11:287][475]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health3B8892414E80513B1F616ABC806EB674.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.14:903][906]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.04.15:392][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.15:406][940]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPC85B9D87456DC741CFDD1A8C9B73DB02.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.04.16:928][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.04.19:011][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.19:024][367]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP8CDA9AD44F4A4146B333A680C9DC3F4A.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.04.20:653][562]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.04.21:191][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.21:205][602]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPF06E42A24D1A2FDE3FA44A9423D9F841.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.04.35:533][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.04.35:538][152]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health87EC000F4DA8D0094A1B03AD747D9A7F.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.41:736][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.04.41:742][771]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthBAD2F6ED4C70F23DB774CB98D93006A6.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.42:668][882]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.04.43:190][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.04.43:195][922]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_Health13B27FC246780955FA3F74B0E9DD6B42.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.53:317][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.04.53:322][119]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthB8D1A66549FA5877C60DBD978F5D6FE5.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.54:417][250]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.04.55:487][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.04.55:493][350]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthE6B29F8F49F67536003275BC407DE30F.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.04.57:546][593]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.04.57:987][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.04.58:000][621]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPBF6172024FE286DB9F6A72B21FDE6FC7.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.05:256][488]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.05.05:265][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.05:279][488]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP8DC6F754464B633F8B0AFF939BAA1E57.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.07:037][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.05.09:768][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.05.09:774][ 23]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthBD51B85B425DE3DA154BE6ADDF13D208.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.05.11:230][197]BlueprintLog: New page: Compile Enemy_Health
+[2024.01.03-11.05.11:731][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy_Health" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset" SILENT=true
+[2024.01.03-11.05.11:736][226]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Enemy_HealthD48A813A473623CA9E8C62BA75C023C7.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Enemy_Health.uasset'
+[2024.01.03-11.05.13:479][432]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.05.14:066][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.14:080][477]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP41692D0A4FCC900844075BBDC01428DA.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.17:564][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.05.17:573][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.17:587][890]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPA9B67FB04EC5E7A7C16ADF8E5B6F5B5B.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.18:186][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.05.18:294][971]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.05.19:192][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.19:205][ 54]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPAAF867E346676F0F7AEB0A84D09CE1AE.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.21:893][374]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.05.22:788][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.22:801][457]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP48F9F36E4B89E9312025BBA88392934E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.25:503][779]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.05.26:034][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.26:047][816]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP65501E1941ED9E2C1BFFA5831920D3E0.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.40:416][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.05.48:516][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.05.50:438][330]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.05.51:172][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.05.51:185][396]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPA4570C034B81E035FBC504A8B7E8DB68.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.05.52:206][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.06.09:824][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.06.09:839][606]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BP65D941754889DDA4D4FDF8A9F446458A.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.06.20:741][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.06.20:755][901]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPE7BF283049FB0D1DA932F2811E170D5B.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.06.31:618][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.06.31:633][877]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPB1C42A0C4F730E806CE815A5CF79539F.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.06.33:722][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.06.33:731][  9]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPB22C078D4D4B0DE592F8C58C4B2ED8B0.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.06.34:733][129]BlueprintLog: New page: Compile BaseEnemy_BP
+[2024.01.03-11.06.35:348][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BaseEnemy_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset" SILENT=true
+[2024.01.03-11.06.35:363][182]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/BaseEnemy_BPA70DAABF4F60FCA6383CBB82DCB52DC5.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/BaseEnemy_BP.uasset'
+[2024.01.03-11.07.05:538][688]Candidate modules for hot reload:
+[2024.01.03-11.07.05:538][688]  UnrealLearning
+[2024.01.03-11.07.05:539][688]Launching UnrealBuildTool... [E:/UE5/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealLearning,7946 Win64 Development -TargetType=Editor -Project="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" -canskiplink "E:/UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" ]
+[2024.01.03-11.07.05:556][688]Warning: Starting HotReload took  0.0s.
+[2024.01.03-11.07.09:299][138]CompilerResultsLog: New page: Compilation - 3.1.2024 15.07.09
+[2024.01.03-11.07.09:299][138]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\UE5PROJECT\LearningUnreal).
+[2024.01.03-11.07.09:299][138]CompilerResultsLog: Compiling game modules for hot reload
+[2024.01.03-11.07.09:299][138]CompilerResultsLog: Failed to delete file 'E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-9814.pdb'
+[2024.01.03-11.07.09:299][138]CompilerResultsLog:     Exception: Polun E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-9814.pdb k?ytt?minen on estetty.
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: Attempting to retry...
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: Failed to delete file 'E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-9814.pdb'
+[2024.01.03-11.07.09:300][138]CompilerResultsLog:     Exception: Polun E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-9814.pdb k?ytt?minen on estetty.
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: Attempting to retry...
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: Failed to delete file 'E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-9814.pdb'
+[2024.01.03-11.07.09:300][138]CompilerResultsLog:     Exception: Polun E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-9814.pdb k?ytt?minen on estetty.
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: ERROR: Exhausted all retries!
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: Target is up to date
+[2024.01.03-11.07.09:300][138]CompilerResultsLog: Total build time: 3,55 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2024.01.03-11.07.09:300][138]LogMainFrame: MainFrame: Module compiling took 3.762 seconds
+[2024.01.03-11.07.09:498][138]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2658 classes and 625 folders.
+[2024.01.03-11.07.09:498][138]Display: HotReload took  4.0s.
+[2024.01.03-11.09.46:333][ 78]Candidate modules for hot reload:
+[2024.01.03-11.09.46:333][ 78]  UnrealLearning
+[2024.01.03-11.09.46:333][ 78]Launching UnrealBuildTool... [E:/UE5/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealLearning,826 Win64 Development -TargetType=Editor -Project="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" -canskiplink "E:/UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" ]
+[2024.01.03-11.09.46:351][ 78]Warning: Starting HotReload took  0.0s.
+[2024.01.03-11.09.55:405][616]CompilerResultsLog: New page: Compilation - 3.1.2024 15.09.55
+[2024.01.03-11.09.55:405][616]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\UE5PROJECT\LearningUnreal).
+[2024.01.03-11.09.55:405][616]CompilerResultsLog: Creating makefile for hot reloading UnrealLearningEditor (source directory changed)
+[2024.01.03-11.09.55:405][616]CompilerResultsLog: Compiling game modules for hot reload
+[2024.01.03-11.09.55:405][616]CompilerResultsLog: Using Visual Studio 2017 14.36.32532 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.03-11.09.55:405][616]CompilerResultsLog: Building 3 actions with 16 processes...
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   [1/3] UnrealLearningCharacter.cpp
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(158): warning C4263: 'void AUnrealLearningCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(256): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(178): warning C4263: 'void AUnrealLearningCharacter::Crouch(void)': member function does not override any base class virtual member function
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(256): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:    E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192) : error C2653: 'AFPSTestCharacter': is not a class or namespace name
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:    E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192) : error C2276: '&': illegal operation on bound member function expression
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:    E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192) : error C2665: 'FTimerManager::SetTimer': no overloaded function could convert all the argument types
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Public\TimerManager.h(200): note: could be 'void FTimerManager::SetTimer(FTimerHandle &,TFunction<void (void)> &&,float,bool,float)'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: 'void FTimerManager::SetTimer(FTimerHandle &,TFunction<void (void)> &&,float,bool,float)': cannot convert argument 2 from 'AUnrealLearningCharacter *' to 'TFunction<void (void)> &&'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: Reason: cannot convert from 'AUnrealLearningCharacter *' to 'TFunction<void (void)>'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Public\TimerManager.h(195): note: or       'void FTimerManager::SetTimer(FTimerHandle &,float,bool,float)'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: 'void FTimerManager::SetTimer(FTimerHandle &,float,bool,float)': cannot convert argument 2 from 'AUnrealLearningCharacter *' to 'float'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: There is no context in which this conversion is possible
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Public\TimerManager.h(190): note: or       'void FTimerManager::SetTimer(FTimerHandle &,const FTimerDynamicDelegate &,float,bool,float)'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: 'void FTimerManager::SetTimer(FTimerHandle &,const FTimerDynamicDelegate &,float,bool,float)': cannot convert argument 2 from 'AUnrealLearningCharacter *' to 'const FTimerDynamicDelegate &'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: Reason: cannot convert from 'AUnrealLearningCharacter *' to 'const FTimerDynamicDelegate'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Public\TimerManager.h(185): note: or       'void FTimerManager::SetTimer(FTimerHandle &,const FTimerDelegate &,float,bool,float)'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: 'void FTimerManager::SetTimer(FTimerHandle &,const FTimerDelegate &,float,bool,float)': cannot convert argument 2 from 'AUnrealLearningCharacter *' to 'const FTimerDelegate &'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: Reason: cannot convert from 'AUnrealLearningCharacter *' to 'const FTimerDelegate'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Public\TimerManager.h(179): note: or       'void FTimerManager::SetTimer<AUnrealLearningCharacter>(FTimerHandle &,UserClass *,void (__cdecl AUnrealLearningCharacter::* )(void) const,float,bool,float)'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           with
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           [
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:               UserClass=AUnrealLearningCharacter
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           ]
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: 'void FTimerManager::SetTimer<AUnrealLearningCharacter>(FTimerHandle &,UserClass *,void (__cdecl AUnrealLearningCharacter::* )(void) const,float,bool,float)': cannot convert argument 3 from 'float' to 'void (__cdecl AUnrealLearningCharacter::* )(void) const'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           with
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           [
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:               UserClass=AUnrealLearningCharacter
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           ]
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: There is no context in which this conversion is possible
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Public\TimerManager.h(174): note: or       'void FTimerManager::SetTimer<AUnrealLearningCharacter>(FTimerHandle &,UserClass *,void (__cdecl AUnrealLearningCharacter::* )(void),float,bool,float)'
+[2024.01.03-11.09.55:405][616]CompilerResultsLog:           with
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:           [
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:               UserClass=AUnrealLearningCharacter
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:           ]
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: 'void FTimerManager::SetTimer<AUnrealLearningCharacter>(FTimerHandle &,UserClass *,void (__cdecl AUnrealLearningCharacter::* )(void),float,bool,float)': cannot convert argument 3 from 'float' to 'void (__cdecl AUnrealLearningCharacter::* )(void)'
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:           with
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:           [
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:               UserClass=AUnrealLearningCharacter
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:           ]
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: There is no context in which this conversion is possible
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.cpp(192): note: while trying to match the argument list '(FTimerHandle, AUnrealLearningCharacter *, float, bool)'
+[2024.01.03-11.09.55:406][616]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\UE5PROJECT\LearningUnreal\UnrealLearning\Binaries\Win64\UE4Editor-UnrealLearning-826.dll
+[2024.01.03-11.09.55:406][616]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2024.01.03-11.09.55:406][616]CompilerResultsLog: Total build time: 8,53 seconds (Parallel executor: 0,00 seconds)
+[2024.01.03-11.09.55:406][616]LogMainFrame: MainFrame: Module compiling took 9.074 seconds
+[2024.01.03-11.09.55:406][616]Warning: HotReload failed, recompile failed
+[2024.01.03-11.10.29:535][874]LogSlate: Window 'Message Log' being destroyed
+[2024.01.03-11.10.29:537][874]LogSlate: Window 'Message Log' being destroyed
+[2024.01.03-11.10.30:158][948]Candidate modules for hot reload:
+[2024.01.03-11.10.30:158][948]  UnrealLearning
+[2024.01.03-11.10.30:158][948]Launching UnrealBuildTool... [E:/UE5/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealLearning,4262 Win64 Development -TargetType=Editor -Project="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" -canskiplink "E:/UE5PROJECT/LearningUnreal/UnrealLearning/UnrealLearning.uproject" ]
+[2024.01.03-11.10.30:172][948]Warning: Starting HotReload took  0.0s.
+[2024.01.03-11.10.36:148][666]CompilerResultsLog: New page: Compilation - 3.1.2024 15.10.36
+[2024.01.03-11.10.36:148][666]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\UE5PROJECT\LearningUnreal).
+[2024.01.03-11.10.36:149][666]CompilerResultsLog: Creating makefile for hot reloading UnrealLearningEditor (source directory changed)
+[2024.01.03-11.10.36:149][666]CompilerResultsLog: Compiling game modules for hot reload
+[2024.01.03-11.10.36:149][666]CompilerResultsLog: Using Visual Studio 2017 14.36.32532 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.03-11.10.36:149][666]CompilerResultsLog: Building 3 actions with 16 processes...
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   [1/3] UnrealLearningCharacter.cpp
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(158): warning C4263: 'void AUnrealLearningCharacter::TakeDamage(float)': member function does not override any base class virtual member function
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(256): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(178): warning C4263: 'void AUnrealLearningCharacter::Crouch(void)': member function does not override any base class virtual member function
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5PROJECT\LearningUnreal\UnrealLearning\Source\UnrealLearning\UnrealLearningCharacter.h(256): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   E:\UE5\UE_4.21\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   [2/3] UE4Editor-UnrealLearning-4262.lib
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:      Creating library E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-4262.lib and object E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-4262.exp
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:   [3/3] UE4Editor-UnrealLearning-4262.dll
+[2024.01.03-11.10.36:149][666]CompilerResultsLog:      Creating library E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-4262.suppressed.lib and object E:\UE5PROJECT\LearningUnreal\UnrealLearning\Intermediate\Build\Win64\UE4Editor\Development\UnrealLearning\UE4Editor-UnrealLearning-4262.suppressed.exp
+[2024.01.03-11.10.36:149][666]CompilerResultsLog: Total build time: 5,80 seconds (Parallel executor: 2,16 seconds)
+[2024.01.03-11.10.36:149][666]LogMainFrame: MainFrame: Module compiling took 5.993 seconds
+[2024.01.03-11.10.36:215][666]LogContentBrowser: Native class hierarchy updated for 'UnrealLearning' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2024.01.03-11.10.36:218][666]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2024.01.03-11.10.36:448][666]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2658 classes and 625 folders.
+[2024.01.03-11.10.36:448][666]Display: HotReload took  6.3s.
+[2024.01.03-11.10.39:397][992]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap62038CD14792CC58919066B3BFF9C718.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2024.01.03-11.10.39:911][992]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap_BuiltDataE30F5BAA4672A8468C77AE8E8195548F.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2024.01.03-11.10.42:496][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.10.44:983][586]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.10.45:182][586]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap7F82A1044A04075C79A33D880A35FF77.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2024.01.03-11.10.45:475][586]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap_BuiltData916CC2CD46D266785449839F0603F5C1.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2024.01.03-11.10.46:523][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.01.03-11.25.01:548][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.25.23:482][432]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.03-11.25.57:366][756]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.030
+[2024.01.03-11.25.57:367][756]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player_HUD] ([1] browsable assets)...
+[2024.01.03-11.25.57:367][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player_HUD]
+[2024.01.03-11.25.57:367][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Autosaves/Game/Player_HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.01.03-11.25.57:382][756]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD_Auto1E3B4AB1C47E2FC011A5027B020E643E0.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Autosaves/Game/Player_HUD_Auto1.uasset'
+[2024.01.03-11.25.57:383][756]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.01.03-11.29.20:214][423]BlueprintLog: New page: Compile Player_HUD
+[2024.01.03-11.29.20:594][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-11.29.20:608][455]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDB497066D4B8A1738A5A0A5887FB50607.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-11.30.36:779][203]LogSlate: Window 'Font Atlas Visualizer' being destroyed
+[2024.01.03-11.30.36:782][203]LogSlate: Window 'Font Atlas Visualizer' being destroyed
+[2024.01.03-11.30.44:108][ 82]LogSlate: Window 'Texture Atlas Visualizer' being destroyed
+[2024.01.03-11.30.44:111][ 82]LogSlate: Window 'Texture Atlas Visualizer' being destroyed
+[2024.01.03-11.30.49:683][751]LogSlate: Window 'Widget Reflector' being destroyed
+[2024.01.03-11.30.49:686][751]LogSlate: Window 'Widget Reflector' being destroyed
+[2024.01.03-11.31.39:639][699]LogSlate: Window 'Editor Preferences' being destroyed
+[2024.01.03-11.31.39:642][699]LogSlate: Window 'Editor Preferences' being destroyed
+[2024.01.03-11.32.19:762][133]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.03-11.32.25:291][794]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Trap_BP.Trap_BP
+[2024.01.03-11.32.36:339][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.32.36:343][ 82]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP25840078415E6EC573F62EB102681B0A.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.32.47:824][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.32.47:835][447]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP090089BA4BC009AB317B64BDFB14C8F9.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.32.58:283][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.32.58:294][210]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BPFEFC15CE44FF6167D6A7798D08DC4F8E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.05:171][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.05:182][ 27]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP6AE335844AE4916D22D7B19B9C8C583B.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.06:271][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.06:277][156]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP4B3D174E4F70174429AF6EBA688C5C03.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.10:628][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.10:640][661]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP2873316348DC1312A9DFF6B8381AD4E2.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.17:056][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.17:067][193]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP9B608CE74B9C0BF0CB3CFE99A533DD9F.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.20:203][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.20:215][567]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP5DC3B5EE435CCFE04B3C0889561F385D.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.22:765][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.22:771][862]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP8A25FD3E41595A55775CB78A9E0C5BB1.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.25:287][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.25:293][968]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BPC13B338B4C78C5D724A4E5A635566FB3.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.25:888][ 39]BlueprintLog: New page: Compile Trap_BP
+[2024.01.03-11.33.26:240][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.26:252][ 56]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP9EB6E43D477D7D97A8AF7DB472212104.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.56:442][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.56:454][669]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BPAEFA9D4C4FE2B35CC5BE58BE39CC5E11.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.33.58:575][923]BlueprintLog: New page: Compile Trap_BP
+[2024.01.03-11.33.58:954][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.33.58:966][941]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BPE4A9D7D44DB1E47A1117149C3E3A2978.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.34.03:326][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.34.03:434][470]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.03-11.34.03:451][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-11.34.03:451][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.03-11.34.03:451][470]PIE: New page: PIE session: FirstPersonExampleMap (3.1.2024 15.34.03)
+[2024.01.03-11.34.03:451][470]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2024.01.03-11.34.03:460][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008377s)
+[2024.01.03-11.34.03:460][470]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2024.01.03-11.34.03:460][470]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2024.01.03-11.34.03:460][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.008985s)
+[2024.01.03-11.34.03:505][470]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.01.03-11.34.03:518][470]LogInit: FAudioDevice initialized.
+[2024.01.03-11.34.03:547][470]LogLoad: Game class is 'UnrealLearningGameMode'
+[2024.01.03-11.34.03:549][470]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2024.01.03-13.34.03
+[2024.01.03-11.34.03:552][470]LogWorld: Bringing up level for play took: 0.004111
+[2024.01.03-11.34.03:565][470]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0,357
+[2024.01.03-11.34.03:565][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-11.34.08:176][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-11.34.08:176][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-11.34.08:211][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.03-11.34.08:211][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2024.01.03-11.34.08:242][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.03-11.34.08:296][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.01.03-11.34.10:030][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.01.03-11.34.26:852][889]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.01.03-11.34.26:862][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.34.26:874][889]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP774BD44A4E1A64E719796FBE568682B6.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.34.52:447][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.34.52:454][342]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP70C8FC8549C149F82000A194FC85E2C4.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.34.52:875][392]BlueprintLog: New page: Compile Trap_BP
+[2024.01.03-11.34.53:489][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Trap_BP" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset" SILENT=true
+[2024.01.03-11.34.53:501][438]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Trap_BP17E297D44B28C8C02F71E1923EA6150E.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Blueprints/Trap_BP.uasset'
+[2024.01.03-11.35.33:185][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-11.35.33:205][847]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDA080C703409010ADAF0605B504AECCB0.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-11.35.41:658][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-11.35.41:674][736]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD30BA34DB4DC583176F67F7B9E310CB61.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-11.35.49:507][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-11.35.49:523][507]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUDCCF3E2964D58A68B6AB753B5B64421CA.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-11.35.50:884][670]BlueprintLog: New page: Compile Player_HUD
+[2024.01.03-11.35.51:322][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_HUD" FILE="../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset" SILENT=true
+[2024.01.03-11.35.51:339][716]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/Player_HUD7DD8DCE74D2061E24CA976A696FA84FA.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/Player_HUD.uasset'
+[2024.01.03-11.35.56:082][258]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMapD7FE9CDE41E9D87ED41168AC4E4C016C.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2024.01.03-11.35.56:377][258]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap_BuiltData69CEA5B14D2C15D6B265078CEE6DF5B2.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2024.01.03-13.22.08:151][768]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap2609604F4F0AF9EC3E5AEEA411A45830.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2024.01.03-13.22.08:462][768]LogSavePackage: Moving '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Saved/FirstPersonExampleMap_BuiltDataDAB8D1C3409B63C5DD585198DDA547F9.tmp' to '../../../../../UE5PROJECT/LearningUnreal/UnrealLearning/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2024.01.03-13.22.09:510][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.03-13.22.09:563][849]LogSlate: Window 'UnrealLearning - Unreal Editor' being destroyed
+[2024.01.03-13.22.09:823][850]Cmd: QUIT_EDITOR
+[2024.01.03-13.22.10:235][850]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2024.01.03-13.22.10:248][850]LogExit: Preparing to exit.
+[2024.01.03-13.22.10:604][850]LogExit: Editor shut down
+[2024.01.03-13.22.10:605][850]LogExit: Transaction tracking system shut down
+[2024.01.03-13.22.10:952][850]LogExit: Object subsystem successfully closed.
+[2024.01.03-13.22.10:989][850]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.01.03-13.22.10:993][850]LogD3D11RHI: Shutdown
+[2024.01.03-13.22.10:993][850]LogD3D11RHI: CleanupD3DDevice
+[2024.01.03-13.22.11:002][850]LogD3D11RHI: ~FD3D11DynamicRHI
+[2024.01.03-13.22.11:058][850]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (640)
+[2024.01.03-13.22.11:058][850]LogModuleManager: Shutting down and abandoning module UnrealLearning (638)
+[2024.01.03-13.22.11:058][850]LogModuleManager: Shutting down and abandoning module SequencerWidgets (634)
+[2024.01.03-13.22.11:058][850]LogModuleManager: Shutting down and abandoning module BlueprintGraph (632)
+[2024.01.03-13.22.11:058][850]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (630)
+[2024.01.03-13.22.11:058][850]LogModuleManager: Shutting down and abandoning module Voice (628)
+[2024.01.03-13.22.11:059][850]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (626)
+[2024.01.03-13.22.11:059][850]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (624)
+[2024.01.03-13.22.11:059][850]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2024.01.03-13.22.11:059][850]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2024.01.03-13.22.11:063][850]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2024.01.03-13.22.11:063][850]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2024.01.03-13.22.11:063][850]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2024.01.03-13.22.11:064][850]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2024.01.03-13.22.11:064][850]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2024.01.03-13.22.11:064][850]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2024.01.03-13.22.11:066][850]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2024.01.03-13.22.11:067][850]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2024.01.03-13.22.11:067][850]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2024.01.03-13.22.11:067][850]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2024.01.03-13.22.11:069][850]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2024.01.03-13.22.11:070][850]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2024.01.03-13.22.11:072][850]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2024.01.03-13.22.11:072][850]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2024.01.03-13.22.11:072][850]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2024.01.03-13.22.11:073][850]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2024.01.03-13.22.11:073][850]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2024.01.03-13.22.11:074][850]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2024.01.03-13.22.11:076][850]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2024.01.03-13.22.11:076][850]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2024.01.03-13.22.11:076][850]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2024.01.03-13.22.11:076][850]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2024.01.03-13.22.11:076][850]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2024.01.03-13.22.11:076][850]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2024.01.03-13.22.11:677][850]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2024.01.03-13.22.11:677][850]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2024.01.03-13.22.11:677][850]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2024.01.03-13.22.11:677][850]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2024.01.03-13.22.11:677][850]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2024.01.03-13.22.11:677][850]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2024.01.03-13.22.11:678][850]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2024.01.03-13.22.11:678][850]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2024.01.03-13.22.11:679][850]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2024.01.03-13.22.11:679][850]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2024.01.03-13.22.11:679][850]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2024.01.03-13.22.11:679][850]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2024.01.03-13.22.11:679][850]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2024.01.03-13.22.11:680][850]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2024.01.03-13.22.11:680][850]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2024.01.03-13.22.11:680][850]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2024.01.03-13.22.11:680][850]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2024.01.03-13.22.11:680][850]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2024.01.03-13.22.11:681][850]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2024.01.03-13.22.11:681][850]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2024.01.03-13.22.11:681][850]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2024.01.03-13.22.11:682][850]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2024.01.03-13.22.11:682][850]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2024.01.03-13.22.11:738][850]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2024.01.03-13.22.11:738][850]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2024.01.03-13.22.11:739][850]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2024.01.03-13.22.11:739][850]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2024.01.03-13.22.11:740][850]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2024.01.03-13.22.11:740][850]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2024.01.03-13.22.11:740][850]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2024.01.03-13.22.11:741][850]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2024.01.03-13.22.11:741][850]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2024.01.03-13.22.11:741][850]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2024.01.03-13.22.11:767][850]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2024.01.03-13.22.11:768][850]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2024.01.03-13.22.11:770][850]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2024.01.03-13.22.11:772][850]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2024.01.03-13.22.11:773][850]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2024.01.03-13.22.11:773][850]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2024.01.03-13.22.11:773][850]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2024.01.03-13.22.11:775][850]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2024.01.03-13.22.11:862][850]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2024.01.03-13.22.11:863][850]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2024.01.03-13.22.11:865][850]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2024.01.03-13.22.11:865][850]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2024.01.03-13.22.11:865][850]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2024.01.03-13.22.11:867][850]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2024.01.03-13.22.11:868][850]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2024.01.03-13.22.11:869][850]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2024.01.03-13.22.11:869][850]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2024.01.03-13.22.11:869][850]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2024.01.03-13.22.11:869][850]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2024.01.03-13.22.11:870][850]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2024.01.03-13.22.11:870][850]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2024.01.03-13.22.11:870][850]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2024.01.03-13.22.11:870][850]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2024.01.03-13.22.11:870][850]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2024.01.03-13.22.11:871][850]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2024.01.03-13.22.11:872][850]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2024.01.03-13.22.11:872][850]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2024.01.03-13.22.11:873][850]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2024.01.03-13.22.11:874][850]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2024.01.03-13.22.11:975][850]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2024.01.03-13.22.12:076][850]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2024.01.03-13.22.12:076][850]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2024.01.03-13.22.12:076][850]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2024.01.03-13.22.12:076][850]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2024.01.03-13.22.12:076][850]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2024.01.03-13.22.12:076][850]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2024.01.03-13.22.12:077][850]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2024.01.03-13.22.12:079][850]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2024.01.03-13.22.12:079][850]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2024.01.03-13.22.12:080][850]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2024.01.03-13.22.12:080][850]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2024.01.03-13.22.12:080][850]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2024.01.03-13.22.12:082][850]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2024.01.03-13.22.12:083][850]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2024.01.03-13.22.12:083][850]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2024.01.03-13.22.12:083][850]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2024.01.03-13.22.12:083][850]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2024.01.03-13.22.12:083][850]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2024.01.03-13.22.12:083][850]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2024.01.03-13.22.12:084][850]LogModuleManager: Shutting down and abandoning module Media (241)
+[2024.01.03-13.22.12:090][850]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2024.01.03-13.22.12:090][850]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2024.01.03-13.22.12:090][850]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2024.01.03-13.22.12:090][850]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2024.01.03-13.22.12:090][850]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2024.01.03-13.22.12:091][850]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2024.01.03-13.22.12:091][850]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2024.01.03-13.22.12:091][850]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2024.01.03-13.22.12:091][850]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2024.01.03-13.22.12:091][850]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2024.01.03-13.22.12:092][850]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2024.01.03-13.22.12:092][850]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2024.01.03-13.22.12:093][850]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2024.01.03-13.22.12:094][850]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2024.01.03-13.22.12:094][850]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2024.01.03-13.22.12:094][850]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2024.01.03-13.22.12:094][850]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2024.01.03-13.22.12:094][850]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2024.01.03-13.22.12:095][850]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2024.01.03-13.22.12:095][850]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module Core (186)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2024.01.03-13.22.12:103][850]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2024.01.03-13.22.12:104][850]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2024.01.03-13.22.12:104][850]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2024.01.03-13.22.12:105][850]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2024.01.03-13.22.12:105][850]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2024.01.03-13.22.12:106][850]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2024.01.03-13.22.12:106][850]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2024.01.03-13.22.12:106][850]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2024.01.03-13.22.12:107][850]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2024.01.03-13.22.12:109][850]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2024.01.03-13.22.12:207][850]LogDerivedDataCache: Shutdown
+[2024.01.03-13.22.12:207][850]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2024.01.03-13.22.12:207][850]LogXGEController: Cleaning working directory: C:/Users/Acey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.01.03-13.22.12:208][850]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2024.01.03-13.22.12:208][850]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2024.01.03-13.22.12:208][850]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2024.01.03-13.22.12:208][850]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2024.01.03-13.22.12:208][850]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2024.01.03-13.22.12:208][850]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2024.01.03-13.22.12:209][850]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2024.01.03-13.22.12:215][850]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2024.01.03-13.22.12:215][850]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2024.01.03-13.22.12:215][850]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2024.01.03-13.22.12:215][850]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2024.01.03-13.22.12:215][850]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2024.01.03-13.22.12:218][850]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2024.01.03-13.22.12:218][850]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2024.01.03-13.22.12:220][850]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2024.01.03-13.22.12:220][850]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2024.01.03-13.22.12:239][850]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2024.01.03-13.22.12:239][850]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2024.01.03-13.22.12:239][850]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2024.01.03-13.22.12:239][850]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2024.01.03-13.22.12:239][850]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2024.01.03-13.22.12:239][850]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2024.01.03-13.22.12:240][850]LogHMD: Freeing OpenVRDLLHandle.
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2024.01.03-13.22.12:240][850]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2024.01.03-13.22.12:242][850]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2024.01.03-13.22.12:243][850]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2024.01.03-13.22.12:267][850]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2024.01.03-13.22.12:267][850]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2024.01.03-13.22.12:267][850]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B754853CD-4C54-3649-07A5-928F665EAAF4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=47e8520848c4737308c21bb07ae035f7%7Cbad9080d2e124a41a72a86105cea3b5a%7C8ef1a90e-2b97-4116-aa53-5a301b5bf738&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2024.01.03-13.22.12:293][850]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2024.01.03-13.22.12:296][850]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2024.01.03-13.22.12:297][850]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.03-13.22.12:297][850]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2024.01.03-13.22.12:297][850]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2024.01.03-13.22.12:298][850]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2024.01.03-13.22.12:298][850]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2024.01.03-13.22.12:299][850]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2024.01.03-13.22.12:299][850]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2024.01.03-13.22.12:300][850]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2024.01.03-13.22.12:300][850]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.01.03-13.22.12:300][850]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2024.01.03-13.22.12:303][850]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2024.01.03-13.22.12:304][850]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2024.01.03-13.22.12:304][850]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.01.03-13.22.12:304][850]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2024.01.03-13.22.12:304][850]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2024.01.03-13.22.12:312][850]LogExit: Exiting.
+[2024.01.03-13.22.12:323][850]Log file closed, 01/03/24 15:22:12

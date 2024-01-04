@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeUnrealLearning_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/UnrealLearning",
 				PKG_CompiledIn | 0x00000000,
-				0x83A3E8D5,
-				0x28238C45,
+				0x194D85FB,
+				0x07773C20,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

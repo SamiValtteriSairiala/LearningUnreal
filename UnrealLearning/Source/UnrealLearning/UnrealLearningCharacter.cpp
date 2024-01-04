@@ -115,7 +115,7 @@ void AUnrealLearningCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
-
+	respawnLocation = GetActorLocation();
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
@@ -182,6 +182,15 @@ void AUnrealLearningCharacter::SetupPlayerInputComponent(class UInputComponent* 
 
 void AUnrealLearningCharacter::TakeDamage(float damageAmount)
 {
+	if (CanTakeDamageBool) {
+		CanTakeDamageBool = false;
+		health -= damageAmount;
+		if (health <= 0.0f) {
+			health = 0.0f;
+			Die();
+		}
+		GetWorld()->GetTimerManager().SetTimer(DamageFrameTimerHandle, this, &AUnrealLearningCharacter::CanTakeDamage, StopDamageFrame, false);
+	}
 }
 
 void AUnrealLearningCharacter::OnFire()
@@ -423,10 +432,13 @@ void AUnrealLearningCharacter::CanTakeDamage()
 
 void AUnrealLearningCharacter::Die()
 {
+	Respawn();
 }
 
 void AUnrealLearningCharacter::Respawn()
 {
+	health = 1.0f;
+	SetActorLocation(respawnLocation);
 }
 
 void AUnrealLearningCharacter::ReloadWeapon()
